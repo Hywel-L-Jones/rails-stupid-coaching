@@ -14,4 +14,6 @@
  *= require_self
  */
 
- 
+.erb {
+  margin-left: 20;
+ }

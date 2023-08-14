@@ -1,8 +1,15 @@
-<p><%= [params[:question]].join() %> </P>
-<p> - You </p>
+<div class="m-3">
 
-<p><%= @message %> </P>
-<p> - Coach </p>
+<div class="border-start border-dark border-3">
+<p class="m-3"><%= [params[:question]].join() %> </P>
+<p class="m-3"> - You </p>
+</div>
 
+<div class="border-start border-dark border-3">
+<p class="m-3"><%= @message %> </P>
+<p class="m-3"> - Coach </p>
+</div>
 
 <%= link_to "Ask another question", ask_path %>
+
+</div>
